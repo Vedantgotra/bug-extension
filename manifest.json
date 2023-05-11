@@ -1,0 +1,13 @@
+{
+    "manifest_version": 3,
+    "name": "Bug_Extension",
+    "version": "1.0.1",
+    "content_scripts": [
+        {
+        "matches": ["<all_urls>"],
+        "js": ["main.js","move.js"],
+        "css": ["style.css"] 
+        }
+    ],
+    "description": "A bug description"
+}
