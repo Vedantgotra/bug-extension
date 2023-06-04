@@ -26,8 +26,8 @@ function makeNewPosition() {
 
     var angleDeg = 180-Math.atan2(p2.y - p1.y, p2.x - p1.x) * 180 / Math.PI;
     
-        // if (angleDeg >= 0 && angleDeg <= 180) {
-        //     angleDeg = 180 - angleDeg;
+        // if (angleDeg > 270 && angleDeg <= 360) {
+        //     angleDeg =  270 + angleDeg;
         // }
         // else if (angleDeg >= 181 && angleDeg <= 360) {
         //     angleDeg = 360+angleDeg;
